@@ -3,8 +3,8 @@ base code for creating 2D web games
 
 ## TRANSFORM
 class `Transform(string _name, float _x, float _y, float _xSize, float _ySize, string _spritePath)` : Object displayed in scene (canvas) with or without a Behavior js script
-* Inherited :
-  variables :
+Inherited
+  * variables :
     - String   `Transform.name`
     - Float    `Transform.x` : x-axis image's position in pixels
     - Float    `Transform.y` : y-axis image's position in pixels
@@ -14,10 +14,10 @@ class `Transform(string _name, float _x, float _y, float _xSize, float _ySize, s
     - Bool     `Transform.isActive` : true by default or false if sprite is null)
     - Image    `Transform.sprite` : Image displayed in scene (canvas)
     - Behavior `Transform.behavior` : Behavior attached to the Transform see Behavior below)
-  functions :
+  * functions :
     - Function `Transform.SetActive(bool _isActive)` : show/hide Transform's image
     - Function `Transform.SetBehavior(string script_path)` : use script_path = path to the script attached to the Transform None to set bevavior to null
-* Externals :
+Externals
   - List<Transform> `transforms` : when Transform constructor is called, it push itself in this global list
   - Transform `FindTransformByName(string _name)` : returns the first Transform whoes matches in transforms global list
 
