@@ -128,8 +128,8 @@ Variables :
 			"y":0, // y axis position in pixels here
 			"xSize":70, // x size in pixels
 			"ySize":35, // y size in pixels
-			"texture":"./path/to/the/sprite_image.png",
-			"behavior":"./Resources/Scripts/script.js"
+			"texture":"./path/to/the/sprite_image.png", // set to "None" to disable display
+			"behavior":"./Resources/Scripts/script.js" // set to "None" to disable Behavior
 		},
 	    {
 	      // ...
@@ -138,6 +138,7 @@ Variables :
 	]
 }
 ```
+
 ## MISC
 - function `Hitbox(xt, yt, x1, x2, y1, y2)` : check if the 2D Vector(xt, yt) matches the box with left-down corner (x1, y1) and right-up corner (x2, y2)
 - string  `ReadFile(string path)` : fetch path, then throw error if response code is not OK, else returns file's text
