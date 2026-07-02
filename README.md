@@ -1,5 +1,5 @@
 # LumiJS
-base code for creating 2D web games
+base code for creating 2D web games in javascript
 
 ## TRANSFORM
 class `Transform(string _name, float _x, float _y, float _xSize, float _ySize, string _spritePath)` : Object displayed in scene (canvas) with or without a Behavior js script
