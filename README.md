@@ -57,16 +57,16 @@ The built-in Camera is accessible via `MainCamera`.
 ## TIME
 
 Constants : 
-- `DATE` = new Date()
-- `START_TIME` = performance.now()
+- Date `DATE` = new Date()
+- Float `START_TIME` = performance.now()
 
 Variables :
-- float `deltaTime` : time elapsed between two last frames 
-- float `time` : time spent in seconds since the start of the program
-- int `framecode` : frames count since the start of the program
+- Float `deltaTime` : time elapsed between two last frames 
+- Float `time` : time spent in seconds since the start of the program
+- Int `framecode` : frames count since the start of the program
 
 ## INPUTS
-* boolean `GetKey(int _id)` : returns true if given key's id is active (if the key is pressed), else returns false
+* Boolean `GetKey(int _id)` : returns true if given key's id is active (if the key is pressed), else returns false
   _id can be any integer, but there is some human-readable constants here just for you :
   - `KEY_RET` = 8;
   - `KEY_TAB` = 9;
