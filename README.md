@@ -49,7 +49,7 @@ class Example extends Behavior {
   
 ## CAMERA
 class `Camera()` :
-- Transform `Camera.transform` (the default Transform's name is "Main Camera")
+- Transform `Camera.transform` (the default Camera Transform's name is "Main Camera")
 - Float `Camera.zoom` (default = 1)
 The built-in Camera is accessible via `MainCamera`.
 
