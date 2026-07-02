@@ -3,6 +3,7 @@ base code for creating 2D web games
 
 ## TRANSFORM
 class `Transform(string _name, float _x, float _y, float _xSize, float _ySize, string _spritePath)` : Object displayed in scene (canvas) with or without a Behavior js script
+
 Inherited
   * variables :
     - String   `Transform.name`
