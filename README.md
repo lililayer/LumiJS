@@ -5,7 +5,7 @@ base code for creating 2D web games
 class `Transform(string _name, float _x, float _y, float _xSize, float _ySize, string _spritePath)` : Object displayed in scene (canvas) with or without a Behavior js script
 
 Inherited
-  - String   `Transform.name`
+  - String   `Transform.name` : Transform's name (used for FindTransformByName, as seen below)
   - Float    `Transform.x` : x-axis image's position in pixels
   - Float    `Transform.y` : y-axis image's position in pixels
   - Float    `Transform.xSize` : image's width in pixels
