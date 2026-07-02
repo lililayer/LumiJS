@@ -5,17 +5,17 @@ base code for creating 2D web games
 class `Transform(string _name, float _x, float _y, float _xSize, float _ySize, string _spritePath)` : Object displayed in scene (canvas) with or without a Behavior js script
 
 Inherited
-    - String   `Transform.name`
-    - Float    `Transform.x` : x-axis image's position in pixels
-    - Float    `Transform.y` : y-axis image's position in pixels
-    - Float    `Transform.xSize` : image's width in pixels
-    - Float    `Transform.ySize` : image's height in pixels
-    - String   `Transform.spritePath` : image's file path, which sources Transform.sprite, set None to set inactive object's scene display (Transform.isActive)
-    - Bool     `Transform.isActive` : true by default or false if sprite is null)
-    - Image    `Transform.sprite` : Image displayed in scene (canvas)
-    - Behavior `Transform.behavior` : Behavior attached to the Transform see Behavior below)
-    - Function `Transform.SetActive(bool _isActive)` : show/hide Transform's image
-    - Function `Transform.SetBehavior(string script_path)` : use script_path = path to the script attached to the Transform None to set bevavior to null
+  - String   `Transform.name`
+  - Float    `Transform.x` : x-axis image's position in pixels
+  - Float    `Transform.y` : y-axis image's position in pixels
+  - Float    `Transform.xSize` : image's width in pixels
+  - Float    `Transform.ySize` : image's height in pixels
+  - String   `Transform.spritePath` : image's file path, which sources Transform.sprite, set None to set inactive object's scene display (Transform.isActive)
+  - Bool     `Transform.isActive` : true by default or false if sprite is null)
+  - Image    `Transform.sprite` : Image displayed in scene (canvas)
+  - Behavior `Transform.behavior` : Behavior attached to the Transform see Behavior below)
+  - Function `Transform.SetActive(bool _isActive)` : show/hide Transform's image
+  - Function `Transform.SetBehavior(string script_path)` : use script_path = path to the script attached to the Transform None to set bevavior to null
 
 Externals
   - List<Transform> `transforms` : when Transform constructor is called, it push itself in this global list
