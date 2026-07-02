@@ -1,8 +1,8 @@
 # LumiJS
 base code for creating 2D web games
 
-# TRANSFORM
-class Transform(<string _name>, <float _x>, <float _y>, <float _xSize>, <float _ySize>, <string (path of the image) _spritePath>) : Object displayed in scene (canvas) with or without a Behavior js script
+## TRANSFORM
+class Transform(string _name, float _x, float _y, float _xSize, float _ySize, string (path of the image) _spritePath) : Object displayed in scene (canvas) with or without a Behavior js script
 * Inherited :
   variables :
     - String   Transform.name
@@ -15,14 +15,14 @@ class Transform(<string _name>, <float _x>, <float _y>, <float _xSize>, <float _
     - Image    Transform.sprite : image displayed in scene (canvas)
     - Behavior Transform.behavior : Behavior attached to the Transform see "Behavior" below)
   functions :
-    - Function Transform.SetActive(<bool _isActive>) : show/hide Transform's image
-    - Function Transform.SetBehavior(<string (path) script_path>) : use script_path = path to the script attached to the Transform "None" to set bevavior to null
+    - Function Transform.SetActive(bool _isActive) : show/hide Transform's image
+    - Function Transform.SetBehavior(string (path) script_path) : use script_path = path to the script attached to the Transform "None" to set bevavior to null
 * Externals :
   - List<Transform> transforms : when Transform constructor is called, it push itself in this global list
-  - Transform FindTransformByName(<string _name>) : returns the first Transform whoes matches in "transforms" global list
+  - Transform FindTransformByName(string _name) : returns the first Transform whoes matches in "transforms" global list
 
-# BEHAVIOR
-base class Behavior(<Transform _transform>) :
+## BEHAVIOR
+base class Behavior(Transform _transform) :
 - Transform Behavior.transform : Transform attached to the Behavior
 - Function Behavior.Start() : called when the Transform object is created
 - Function Behavior.Update() : called once per frame
@@ -46,13 +46,13 @@ class Example extends Behavior {
 }
 ```
   
-# CAMERA
+## CAMERA
 class Camera() :
 - Transform Camera.transform (the default Transform's name is "Main Camera")
 - Float Camera.zoom (default = 1)
 Accessible built-in Camera "MainCamera" whoes Transform's name is "Main Camera".
 
-# TIME
+## TIME
 Constants : 
 - DATE = new Date()
 - START_TIME = performance.now()
@@ -61,8 +61,8 @@ Variables :
 - float time : time in seconds since the start of the program
 - int framecode : frame's count since the start of the program
 
-# INPUTS
-* boolean GetKey(<int _id>) : returns true if given key's id is active (if the key is pressed), else returns false
+## INPUTS
+* boolean GetKey(int _id) : returns true if given key's id is active (if the key is pressed), else returns false
   _id can be any integer, but there is some human-readable constants here just for you :
   - KEY_RET = 8;
   - KEY_TAB = 9;
@@ -112,7 +112,7 @@ Variables :
   - KEY_Y = 89;
   - KEY_Z = 90;
 
-# MISC
+## MISC
 - function Hitbox(xt, yt, x1, x2, y1, y2) : check if the 2D Vector(xt, yt) matches the box with left-down corner (x1, y1) and right-up corner (x2, y2)
-- string  ReadFile(<string path>) : fetch path, then throw error if response code is not OK, else returns file's text
-- integer getRandomInt(<int min>, <int max>) : returns a random integer between <min> and <max>
+- string  ReadFile(string path) : fetch path, then throw error if response code is not OK, else returns file's text
+- integer getRandomInt(int min, int max) : returns a random integer between <min> and <max>
