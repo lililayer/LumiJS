@@ -51,12 +51,15 @@ class Example extends Behavior {
 class `Camera()` :
 - Transform `Camera.transform` (the default Camera Transform's name is "Main Camera")
 - Float `Camera.zoom` (default = 1)
+
 The built-in Camera is accessible via `MainCamera`.
 
 ## TIME
+
 Constants : 
 - `DATE` = new Date()
 - `START_TIME` = performance.now()
+
 Variables :
 - float `deltaTime` : time elapsed between two last frames 
 - float `time` : time in seconds since the start of the program
@@ -115,6 +118,7 @@ Variables :
 
 ## MAP.JSON
 ./map.json stores the Transform objects that will be created during the initial load
+
 ```json
 {
 	"Transforms":[
