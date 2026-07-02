@@ -123,18 +123,22 @@ Variables :
 {
 	"Transforms":[
 		{
-			"_name_":"transform's name", 
-			"x":0, // x axis position in pixels here
-			"y":0, // y axis position in pixels here
-			"xSize":70, // x size in pixels
-			"ySize":35, // y size in pixels
+			"_name_":"transform's name",
+			// x axis position in pixels here
+			"x":0,
+			// y axis position in pixels here
+			"y":0,
+			// x size in pixels
+			"xSize":70,
+			// y size in pixels
+			"ySize":35, 
 			"texture":"./path/to/the/sprite_image.png",
 			"behavior":"./Resources/Scripts/script.js"
 		},
     {
-      ...
+      // ...
     },
-    ...
+    // ...
 	]
 }
 ```
