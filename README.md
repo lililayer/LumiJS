@@ -63,7 +63,7 @@ Constants :
 Variables :
 - float `deltaTime` : time elapsed between two last frames 
 - float `time` : time in seconds since the start of the program
-- int `framecode` : frame's count since the start of the program
+- int `framecode` : frames count since the start of the program
 
 ## INPUTS
 * boolean `GetKey(int _id)` : returns true if given key's id is active (if the key is pressed), else returns false
