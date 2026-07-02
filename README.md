@@ -62,7 +62,7 @@ Constants :
 
 Variables :
 - float `deltaTime` : time elapsed between two last frames 
-- float `time` : time in seconds since the start of the program
+- float `time` : time spent in seconds since the start of the program
 - int `framecode` : frames count since the start of the program
 
 ## INPUTS
