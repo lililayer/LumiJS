@@ -26,6 +26,7 @@ base class `Behavior(Transform _transform)` :
 - Transform `Behavior.transform` : Transform attached to the Behavior
 - Function  `Behavior.Start()` : called when the Transform object is created
 - Function  `Behavior.Update()` : called once per frame
+
 Example of use : 
 ```javascript
 class Example extends Behavior {
