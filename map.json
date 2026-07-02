@@ -1,0 +1,13 @@
+{
+	"Transforms":[
+		{
+			"_name_":"ufo", 
+			"x":0, 
+			"y":0, 
+			"xSize":70, 
+			"ySize":35, 
+			"texture":"./Resources/ufo.png",
+			"behavior":"./Resources/Scripts/Player.js"
+		}
+	]
+}
