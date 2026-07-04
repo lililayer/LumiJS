@@ -142,6 +142,6 @@ Variables :
 ```
 
 ## MISC
-- function `Hitbox(xt, yt, x1, x2, y1, y2)` : check if the 2D Vector(xt, yt) matches the box with left-down corner (x1, y1) and right-up corner (x2, y2)
-- string  `ReadFile(string path)` : fetch path, then throw error if response code is not OK, else returns file's text
-- integer `getRandomInt(int min, int max)` : returns a random integer between <min> and <max>
+- Function `Hitbox(xt, yt, x1, x2, y1, y2)` : check if the 2D Vector(xt, yt) matches the box with left-down corner (x1, y1) and right-up corner (x2, y2)
+- String  `ReadFile(string path)` : fetch path, then throw error if response code is not OK, else returns file's text
+- Integer `getRandomInt(int min, int max)` : returns a random integer between <min> and <max>
