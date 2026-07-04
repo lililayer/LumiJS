@@ -4,7 +4,7 @@ Base code for creating 2D web games in javascript
 These scripts do not requires any plugins, add-ons, or non-native libraries
 
 ## TRANSFORM
-class `Transform(string _name, float _x, float _y, float _xSize, float _ySize, string _spritePath)` : Object displayed in scene (canvas) with or without a Behavior js script
+Class `Transform(string _name, float _x, float _y, float _xSize, float _ySize, string _spritePath)` : Object displayed in scene (canvas) with or without a Behavior js script
 
 Inherited
   - String   `Transform.name` : Transform's name (used for FindTransformByName, as seen below)
@@ -24,7 +24,7 @@ Externals
   - Transform `FindTransformByName(string _name)` : returns the first Transform whoes matches in transforms global list
 
 ## BEHAVIOR
-base class `Behavior(Transform _transform)` :
+Base class `Behavior(Transform _transform)` :
 - Transform `Behavior.transform` : Transform attached to the Behavior
 - Function  `Behavior.Start()` : called when the Transform object is created
 - Function  `Behavior.Update()` : called once per frame
