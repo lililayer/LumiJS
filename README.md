@@ -20,7 +20,7 @@ Inherited
   - Function `Transform.SetBehavior(string script_path)` : use script_path = path to the script attached to the Transform None to set bevavior to null
 
 Externals
-  - List<Transform> `transforms` : when Transform constructor is called, it push itself in this global list
+  - List<Transform> `transforms` : when a Transform constructor is called, it push itself in this global list
   - Transform `FindTransformByName(string _name)` : returns the first Transform whoes matches in transforms global list
 
 ## BEHAVIOR
