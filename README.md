@@ -14,7 +14,8 @@ Then you can run `0.0.0.0:8080/index.html` in your browser.
 
 index.html can be renamed.
 
-## DOCUMENTATIONS
+
+### DOCUMENTATIONS
 
 Refeer to the github wiki page
 https://github.com/lililayer/LumiJS/wiki
