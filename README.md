@@ -3,6 +3,14 @@ Base code for creating 2D web games in javascript
 
 These scripts do not requires any plugins, add-ons, or non-native libraries
 
+### Execution
+```bash
+cd path/to/your/project/
+python3 -m http.server 8080
+```
+
+Then you can open `0.0.0.0:8080/index.html` in your browser.
+
 ## TRANSFORM
 Class `Transform(string _name, float _x, float _y, float _xSize, float _ySize, string _spritePath)` : Object displayed in scene (canvas) with or without a Behavior js script
 
